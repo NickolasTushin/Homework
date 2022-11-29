@@ -10,11 +10,11 @@ Console.WriteLine("Введите второе число ");
 
 if (x > y)
 {
-Console.WriteLine("первое число больше");
+Console.WriteLine($"Число {x} больше числа {y}");
 }
 else if (x < y)
 {
-Console.WriteLine("второе число больше");
+Console.WriteLine($"Число {y} больше числа {x} ");
 }
 else 
 {
