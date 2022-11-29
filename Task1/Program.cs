@@ -2,17 +2,17 @@
 
 Console.WriteLine("Введите первое число ");
 
-int a = int.Parse(Console.ReadLine());
+ int x = Convert.ToInt32(Console.ReadLine());
 
 Console.WriteLine("Введите второе число ");
 
-int b = int.Parse(Console.ReadLine());
+ int y = Convert.ToInt32(Console.ReadLine());
 
-if (a > b)
+if (x > y)
 {
 Console.WriteLine("первое число больше");
 }
-else if (a < b)
+else if (x < y)
 {
 Console.WriteLine("второе число больше");
 }
